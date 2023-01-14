@@ -13,4 +13,8 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "CleanArchitecture_Study"
-include ':app'
+include ':data'
+include ':domain'
+include ':presentation'
+
+//기존에는 기본으로 형성되는 app 모듈만 include되어 있음
